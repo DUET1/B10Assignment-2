@@ -570,3 +570,60 @@ hr{
     }
 }
 
+@media (width>576px) and (width<992px)
+{
+    .header_nav_bar .nav_links{
+        display: active;
+    }
+    .header_content{
+        flex-direction: column;
+    }
+    .habits_card_container{
+        flex: 1 1 50%;
+        
+    }
+    .extra_run_container_content{
+        grid-template-columns: 2fr;
+    }
+    .bmi_calculator_card{
+        flex-direction: column;
+        
+    }
+    .team_photo{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer_content{
+       flex-direction: column;
+    }
+    
+
+}
+
+@media (width>992px) 
+{
+    .header_nav_bar .nav_links{
+        display: active;
+    }
+    .header_content{
+        flex-direction: column;
+    }
+    .habits_card_container{
+        flex: 1 1 50%;
+        
+    }
+    .extra_run_container_content{
+        grid-template-columns: 2fr;
+    }
+    .bmi_calculator_card{
+        flex-direction: column;
+        
+    }
+    .team_photo{
+        grid-template-columns: repeat(3, 1fr);
+    }
+    .footer_content{
+       flex-direction: row;
+    }
+    
+
+}
