@@ -605,7 +605,7 @@ hr{
         display: active;
     }
     .header_content{
-        flex-direction: column;
+        flex-direction: row;
     }
     .habits_card_container{
         flex: 1 1 50%;
