@@ -606,7 +606,9 @@ hr{
     }
     .header_content{
         flex-direction: row;
+        
     }
+    
     .habits_card_container{
         flex: 1 1 50%;
         
@@ -615,7 +617,7 @@ hr{
         grid-template-columns: 2fr;
     }
     .bmi_calculator_card{
-        flex-direction: column;
+        flex-direction: row;
         
     }
     .team_photo{
